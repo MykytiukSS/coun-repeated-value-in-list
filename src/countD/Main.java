@@ -10,11 +10,11 @@ public class Main {
 	 List<String>stringList=new ArrayList<>(Arrays.asList("game","home","room","table","and","lamp","tree","home","car","and","tree","and"));
 	 List<Integer>intList=new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,3,5,6,4,8,7,6,1,6,7,5,5));
 	 
-	CountDoubles string = new CountDoubles();
-	CountDoubles integ = new CountDoubles();
+	CountDoubles<String> string = new CountDoubles();
+	CountDoubles <Integer>integ = new CountDoubles();
 	
-	string.countDString(stringList);
-	string.countDInteger(intList);
+	string.countD(stringList);
+	integ.countD(intList);
 	
 
 	}
